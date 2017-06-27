@@ -37,12 +37,15 @@ header {
     
     .buttons {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: space-around;
         margin-top: 20px;
         padding: 0 40px;
         
-        .btn { padding: 5px 50px; }
+        .btn { 
+            padding: 5px 50px; 
+            margin: 5px 0;
+        }
     }
 }
 
