@@ -1,3 +1,40 @@
+header ul {
+  position: relative;
+  margin-top: 5px;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: baseline; }
+header li {
+  margin-right: 20px; }
 
+.google {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 150px; }
+  .google .blue {
+    color: blue; }
+  .google .red {
+    color: red; }
+  .google .yellow {
+    color: yellow; }
+  .google .green {
+    color: green; }
+
+.search {
+  width: 50%;
+  margin: 0 auto; }
+  .search input {
+    width: 100%;
+    padding: 5px; }
+  .search .buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 0 40px; }
+    .search .buttons .btn {
+      padding: 5px 50px; }
 
 /*# sourceMappingURL=style.css.map */
